@@ -1,0 +1,78 @@
+@font-face {
+    font-family: GGG;
+    src: url(font/15374.ttf);
+}
+.nav{ 
+    display: block;
+    background: rgba(226, 147, 42, 0.781);
+}
+.menu {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    list-style: none outside none;
+}
+.nav li{
+    display: inline-block;
+    margin: 0 10px ;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.nav li a{
+    display: block;
+     height: 100%;
+    padding: 6px 12px;
+    color: white;
+    text-decoration: none;
+}
+.nav li:hover a {
+    background: rgba(0,0,0,.3);
+}
+.levo {
+    float: left;
+    width: 50%;
+}
+.pravo {
+    float: right;
+    width: 48%;
+}
+h1 {
+    text-align: center;
+    font-family: GGG;
+    font-size: 40px;
+    line-height: 2.5;
+    
+}
+.levokar {
+    float: left;
+margin: 7px;
+}
+.pravokar {
+    float: right;
+margin: 7px;
+}
+.med {
+    display: block;
+    overflow: hidden;
+}
+footer {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 50px;
+    background: rgba(226, 147, 42, 0.781);
+    text-align: center;
+
+}
+@media (max-width:840px) {
+footer {
+    height: 70px;
+}
+h1 {
+    font-size: 22px;
+}
+}
